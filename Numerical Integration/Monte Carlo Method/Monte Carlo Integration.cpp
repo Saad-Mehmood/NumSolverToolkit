@@ -10,8 +10,6 @@ float func(float x)
     return exp(-2 * x);
 }
 
-
-
 int main()
 {
     srand(time(NULL));//Makes sure answer is different each time
