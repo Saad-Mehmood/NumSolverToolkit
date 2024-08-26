@@ -1,12 +1,15 @@
-from random import uniform
+#Instead of calling the whole library we only call the "uniform()" function that 
+#gives us a floating point value between two given numbers, similaryly we only call the "exp()" function from numpy
+from random import uniform 
 from numpy import exp
 
+#Function we want to integrate
 def func(x):
     return exp(-2 * x)
 
+
 length = 2
 height = 1
-
 totalPoints = 100
 pointsUnderCurve = 0
 
@@ -21,4 +24,4 @@ area = length * height
 
 areaUnderCurve = area * (pointsUnderCurve / totalPoints)
 
-print(areaUnderCurve)
+print("Area under the curve: ", areaUnderCurve)
