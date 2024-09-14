@@ -1,3 +1,14 @@
+/*
+ * ---------------------------------------------------------
+ * Author: Saad Mehmood
+ * Date: September 2024
+ * Description: This code was developed by Saad Mehmood as part 
+ * of the project NumSolverToolkit.
+ * Any use or modification of this code should include proper
+ * attribution to the original author.
+ * ---------------------------------------------------------
+ */
+
 #include <iostream>
 #include <math.h>
 using namespace std;

@@ -1,3 +1,12 @@
+# ---------------------------------------------------------
+# Author: Saad Mehmood
+# Date: September 2024
+# Description: This code was developed by Saad Mehmood as part 
+# of the project NumSolverToolkit.
+# Any use or modification of this code should include proper
+# attribution to the original author.
+# ---------------------------------------------------------
+
 #Instead of calling the whole library we only call the "uniform()" function that 
 #gives us a floating point value between two given numbers, similaryly we only call the "exp()" function from numpy
 from random import uniform 
