@@ -14,7 +14,7 @@ Each method is accompanied by detailed explanations, example problems, and simul
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Structure of the Repo](#Structure-of-the-Reop)
+2. [Structure of the Repo](#Structure-of-the-Repo)
 3. [Methods](#methods)
 
 ## Introduction
@@ -24,5 +24,14 @@ Each method is accompanied by detailed explanations, example problems, and simul
 The majority of the codes in this repository will be written in Python but there will be copies of codes in the repository that will be written in C++ or other such languages in case we require speed up for codes.
 
 ## Structure of the Repo
+
+The repository is organized into four primary categories that reflect the core areas of numerical analysis:
+
+1. **Numerical Integration**
+2. **Numerical Differentiation**
+3. **Root-Finding Methods**
+4. **Differential Equations**
+
+Each category contains dedicated subfolders for specific methods. For instance, within the **Numerical Integration** folder, there is a subfolder named **Monte Carlo Methods**. Each subfolder houses detailed theoretical documentation and accompanying code implementations for the respective techniques.
 
 ## Methods
