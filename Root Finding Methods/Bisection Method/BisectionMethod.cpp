@@ -8,16 +8,15 @@
  * attribution to the original author.
  * ---------------------------------------------------------
  */
-
 #include <iostream>
 #include <math.h>
 using namespace std;
-
 
 float Function(float x)
 {
     return pow(x, 5) - x + 1;
 }
+
 
 float BisectionMethod(float start, float end, double tolerance)
 {
@@ -41,6 +40,7 @@ float BisectionMethod(float start, float end, double tolerance)
 
     return midPoint;
 }
+
 
 
 int main()
