@@ -6,7 +6,7 @@
 # Any use or modification of this code should include proper
 # attribution to the original author.
 # ---------------------------------------------------------
-from numpy import sin, cos, radians, linspace, arange
+from numpy import sin, cos, linspace, arange
 import matplotlib.pyplot as plt
 
 def dydx(x):
